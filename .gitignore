@@ -1,0 +1,7 @@
+venv/
+attendance.csv
+__pycache__/
+*.pyc
+known_faces/*.jpeg
+known_faces/*.jpg
+known_faces/*.png
