@@ -9,6 +9,10 @@ A real-time face recognition system that detects and identifies enrolled individ
 - Duplicate-prevention: each person is logged only once per day
 - Simple enrollment: just add a labeled photo to the `known_faces` folder
 - Streamlit web interface with live webcam feed, live attendance table, and in-browser enrollment
+## Screenshots
+
+![Attendance table](screenshots/attendance_table.png)
+![Enrollment](screenshots/enrollment.png)
 
 ## Tech Stack
 
