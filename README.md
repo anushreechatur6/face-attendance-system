@@ -8,6 +8,7 @@ A real-time face recognition system that detects and identifies enrolled individ
 - Automatic attendance logging to CSV (name, date, time)
 - Duplicate-prevention: each person is logged only once per day
 - Simple enrollment: just add a labeled photo to the `known_faces` folder
+- Streamlit web interface with live webcam feed, live attendance table, and in-browser enrollment
 
 ## Tech Stack
 
@@ -32,9 +33,10 @@ venv\Scripts\activate
 3. Install dependencies:
 pip install -r requirements.txt
 4. Add photos of people to recognize into the `known_faces/` folder (filename = person's name, e.g. `John.jpeg`)
-5. Run the system:
-python attendance_system.py
-6. Press `q` to quit the webcam window.
+5. Launch the web app:
+streamlit run app.py
+6. Tick **Start Camera** to begin recognition. Recognized people are logged automatically, and today's attendance appears in the table below the video.
+7. To add someone new, open **Enroll a new person**, enter their name, upload a clear photo, and click Enroll (then refresh the page).
 
 ## Limitations & Future Scope
 
