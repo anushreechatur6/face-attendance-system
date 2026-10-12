@@ -11,8 +11,8 @@ A real-time face recognition system that detects and identifies enrolled individ
 - Streamlit web interface with live webcam feed, live attendance table, and in-browser enrollment
 ## Screenshots
 
-![Attendance table](screenshots/attendance_table.png)
-![Enrollment](screenshots/enrollment.png)
+![Attendance table](screenshots/marked_attendance.png)
+![Enrollment](screenshots/enrollment-1.png)
 
 ## Tech Stack
 
